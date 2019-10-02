@@ -1,0 +1,54 @@
+form
+{
+background-color: brown;
+color: azure;
+width: 500px;
+padding: 30px;
+font-style: italic;
+}
+input, select, textarea
+{
+background-color: coral;
+border: none;
+width: 300px;
+display: block;
+padding: 5px 10px;
+}
+input:focus,select:focus,textarea:focus{
+    background-color: rgb(69, 30, 210);
+    border: 1px solid #fff;
+
+}
+input[type="radio"], input[type="checkbox"]
+{
+    display:inline-block;
+    width:20px;
+}
+label {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+input[type="submit"]
+{
+    background-color: rgb(202, 212, 202);
+    text-transform: uppercase;
+    width: 100px;
+    }
+    input[type="submit"]:hover
+    {
+        background-color: rgb(209, 10, 20);
+        text-transform: uppercase;
+        width: 100px;
+        }
+  #message {
+    max-width: 300px;
+    }
+
+    #Miasto
+    {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #fff;
+        background-color: blueviolet;
+        width: 300px;
+    }
